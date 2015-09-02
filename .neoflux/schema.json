@@ -1,0 +1,16 @@
+{
+    "author": "@juanpablocs",
+    "date":"{{DATE}}",
+    "modules": {
+        "backend": "application/modules/",
+        "frontend": {
+            "pre_html": "frontend/jadeflux/modules/",
+            "pre_css": "frontend/stylus/modules/"
+        },
+        "list": [
+          "admin",
+          "login",
+          "test"
+        ]
+    }
+}
